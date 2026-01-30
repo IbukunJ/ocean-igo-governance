@@ -1,0 +1,23 @@
+construct_22,doc_freq,excerpt_freq,tag_instances,degree_npmi,strength_npmi,betweenness,category_5
+Institutional change and path dependence,47,687,687,1,0.5959197766220977,0.0,Adaptive Capacity
+"Learning, innovation and capacity building",46,844,1225,7,4.279039723211158,0.0,Adaptive Capacity
+Robustness and resilience,44,825,949,8,5.0896180856538695,0.0,Adaptive Capacity
+Sustainable development and environmental sustainability,48,1197,1836,0,0.0,0.0,Governance Mechanisms
+MRV and evaluation,47,929,1675,6,3.6044425513147385,0.0,Governance Mechanisms
+Compliance and enforcement,45,1010,1575,2,1.0436721424420754,0.0,Governance Mechanisms
+Effectiveness,45,909,909,7,3.9356513461255354,0.0,Governance Mechanisms
+Conflict Resolution,44,641,641,10,6.94586992880414,0.0,Governance Mechanisms
+Policy integration and coherence,39,626,959,0,0.0,0.0,Governance Mechanisms
+Norms and soft law,46,692,768,9,5.971735661132651,0.014285714285714287,Institutional Framework
+Rule of Law,46,537,537,1,0.5959197766220977,0.0,Institutional Framework
+Secretariat authority and influence,45,834,972,8,4.948458879247937,0.009523809523809525,Institutional Framework
+Accountability mechanisms,44,661,1292,9,6.2872179087876034,0.0,Institutional Framework
+Legitimacy,39,505,515,4,2.3031044851031433,0.0,Institutional Framework
+Transparency,39,328,328,3,1.9965269898536002,0.0,Institutional Framework
+Inter-agency coordination,48,1105,1554,0,0.0,0.0,Inter-Institutional Relations
+Regime complex and fragmentation,45,578,604,3,1.5423509728933644,0.0,Inter-Institutional Relations
+Global Cooperation,43,345,345,0,0.0,0.0,Inter-Institutional Relations
+Intermediaries,40,334,334,3,2.008112543173783,0.0,Inter-Institutional Relations
+"Participation, engagement and representation",46,1066,1446,0,0.0,0.0,Stakeholder Engagement
+Equity and intergenerational equity,45,699,704,10,6.541963886707632,0.04761904761904762,Stakeholder Engagement
+Partnerships and public–private arrangements,40,348,606,3,1.994087184718321,0.0,Stakeholder Engagement

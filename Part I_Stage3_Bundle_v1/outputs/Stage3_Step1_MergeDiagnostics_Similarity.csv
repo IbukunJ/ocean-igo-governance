@@ -1,0 +1,57 @@
+concept_56,n_members,member_themes,avg_def_tfidf_cosine,max_def_tfidf_cosine,avg_label_char_cosine,max_label_char_cosine
+Transparency,3,Transparency; Transparency mechanisms; Transparency and access to information,0.2611861602756783,0.43667604208853206,0.5771040010849063,0.7085586798096817
+Policy integration and coherence,3,Policy Integration; Policy coherence; Mainstreaming,0.1516155616391571,0.17114631161591562,0.12309875657592607,0.36929626972777824
+Legitimacy,3,Legitimacy; Legitimation; Legitimacy crisis,0.14330757453094778,0.22942680960629164,0.6203172768861748,0.7533116886991714
+Accountability mechanisms,3,Accountability; Oversight; Accountability mechanisms,0.12007549986558981,0.18407714467601557,0.2515812360901526,0.7547437082704578
+"Monitoring, reporting and verification",3,Reporting; Monitoring; Verification,0.059518689754273955,0.12929740520764654,0.022298459446157704,0.06689537833847312
+Inter-agency coordination,3,Collaboration; Coordination; Inter-agency coordination,0.05232024048992088,0.072275611813357,0.28049198424507926,0.672037663798974
+Data-driven governance and indicators,2,Data Driven Governance; Data and indicators,0.3093267648024941,0.3093267648024941,0.2041380214230911,0.2041380214230911
+Partnerships and public–private arrangements,2,Partnerships; Public–private partnerships,0.15557187532791714,0.15557187532791714,0.6549771567617318,0.6549771567617318
+Institutional fit and interplay,2,Fit and interplay; Institutional interplay,0.10416543419385851,0.10416543419385851,0.5468221655621638,0.5468221655621638
+Voluntary contributions and trust funds,2,Voluntary contributions; Trust funds,0.10109445644684453,0.10109445644684453,0.0,0.0
+Power and North–South dynamics,2,Power Dynamics; North–South dynamics,0.09457225312652501,0.09457225312652501,0.47465321540249733,0.47465321540249733
+Equity and intergenerational equity,2,Equity; Intergenerational Equity,0.08896061987208483,0.08896061987208483,0.5100358966583798,0.5100358966583798
+Epistemic communities and expert networks,2,Expert networks; Epistemic communities,0.08001238897003618,0.08001238897003618,0.0,0.0
+Non-state actor participation,2,Non-state actor participation; Private sector engagement,0.07507711132279184,0.07507711132279184,0.138928294255894,0.138928294255894
+Regime complex and fragmentation,2,Fragmentation; Regime complex,0.052038798754511846,0.052038798754511846,0.0,0.0
+Participation and stakeholder engagement,2,Participation; Stakeholder engagement,0.03546962322399727,0.03546962322399727,0.0,0.0
+Sustainable development and SDGs,2,Sustainable development; SDGs,0.020818223881884975,0.020818223881884975,0.0,0.0
+Institutional change and path dependence,2,Institutional change; Path dependency,0.014023402634482662,0.014023402634482662,0.0,0.0
+Adaptive Governance,1,Adaptive Governance,,,,
+Authority,1,Authority,,,,
+Board design,1,Board design,,,,
+Business participation,1,Business participation,,,,
+Capacity Building,1,Capacity Building,,,,
+Compliance,1,Compliance,,,,
+Conflict Resolution,1,Conflict Resolution,,,,
+Delegation,1,Delegation,,,,
+Effectiveness,1,Effectiveness,,,,
+Enforcement,1,Enforcement,,,,
+Environmental Sustainability,1,Environmental Sustainability,,,,
+Ethical Governance,1,Ethical Governance,,,,
+Global Cooperation,1,Global Cooperation,,,,
+Hard law,1,Hard law,,,,
+Inclusiveness,1,Inclusiveness,,,,
+Innovation,1,Innovation,,,,
+Institutional complexity,1,Institutional complexity,,,,
+Institutional proliferation,1,Institutional proliferation,,,,
+Intermediaries,1,Intermediaries,,,,
+Learning,1,Learning,,,,
+Legalisation,1,Legalisation,,,,
+Monitoring and Evaluation,1,Monitoring and Evaluation,,,,
+NGO participation,1,NGO participation,,,,
+Network governance,1,Network governance,,,,
+Norms,1,Norms,,,,
+Orchestration,1,Orchestration,,,,
+Overlapping mandates,1,Overlapping mandates,,,,
+Performance measurement,1,Performance measurement,,,,
+Polycentric governance,1,Polycentric governance,,,,
+Public Trust,1,Public Trust,,,,
+Representation,1,Representation,,,,
+Resilience,1,Resilience,,,,
+Robustness,1,Robustness,,,,
+Rule of Law,1,Rule of Law,,,,
+Soft law,1,Soft law,,,,
+Standard-setting,1,Standard-setting,,,,
+Treaty secretariats,1,Treaty secretariats,,,,
+UN system reform,1,UN system reform,,,,

@@ -1,0 +1,48 @@
+source,target,npmi,cooc,category_source,category_target
+Accountability mechanisms,Conflict Resolution,0.8802926166486409,610,Institutional Framework,Governance Mechanisms
+Accountability mechanisms,Effectiveness,0.5939938138419,625,Institutional Framework,Governance Mechanisms
+Accountability mechanisms,Equity and intergenerational equity,0.8140974870454296,615,Institutional Framework,Stakeholder Engagement
+Accountability mechanisms,"Learning, innovation and capacity building",0.6514424146439816,620,Institutional Framework,Adaptive Capacity
+Accountability mechanisms,Legitimacy,0.6036895655955323,436,Institutional Framework,Institutional Framework
+Accountability mechanisms,MRV and evaluation,0.5853842133251245,630,Institutional Framework,Governance Mechanisms
+Accountability mechanisms,Norms and soft law,0.8179455035818437,613,Institutional Framework,Institutional Framework
+Accountability mechanisms,Robustness and resilience,0.672749905869132,620,Institutional Framework,Adaptive Capacity
+Accountability mechanisms,Secretariat authority and influence,0.6676223882360187,622,Institutional Framework,Institutional Framework
+Compliance and enforcement,Conflict Resolution,0.5259200373253877,626,Governance Mechanisms,Governance Mechanisms
+Compliance and enforcement,Equity and intergenerational equity,0.5177521051166878,659,Governance Mechanisms,Stakeholder Engagement
+Conflict Resolution,Effectiveness,0.6083350263209698,619,Governance Mechanisms,Governance Mechanisms
+Conflict Resolution,Equity and intergenerational equity,0.839852555918431,614,Governance Mechanisms,Stakeholder Engagement
+Conflict Resolution,"Learning, innovation and capacity building",0.6852737100340588,622,Governance Mechanisms,Adaptive Capacity
+Conflict Resolution,Legitimacy,0.591408314818607,423,Governance Mechanisms,Institutional Framework
+Conflict Resolution,MRV and evaluation,0.5832116427266203,617,Governance Mechanisms,Governance Mechanisms
+Conflict Resolution,Norms and soft law,0.8463952987902075,613,Governance Mechanisms,Institutional Framework
+Conflict Resolution,Robustness and resilience,0.6861574568524569,614,Governance Mechanisms,Adaptive Capacity
+Conflict Resolution,Secretariat authority and influence,0.6990232693687608,623,Governance Mechanisms,Institutional Framework
+Effectiveness,Equity and intergenerational equity,0.5836868823732164,643,Governance Mechanisms,Stakeholder Engagement
+Effectiveness,"Learning, innovation and capacity building",0.5106607082564552,693,Governance Mechanisms,Adaptive Capacity
+Effectiveness,Norms and soft law,0.5672376563586268,632,Governance Mechanisms,Institutional Framework
+Effectiveness,Robustness and resilience,0.5137746398242454,684,Governance Mechanisms,Adaptive Capacity
+Effectiveness,Secretariat authority and influence,0.5579626191501216,708,Governance Mechanisms,Institutional Framework
+Equity and intergenerational equity,"Learning, innovation and capacity building",0.6258917530089978,631,Stakeholder Engagement,Adaptive Capacity
+Equity and intergenerational equity,Legitimacy,0.5492332292175327,430,Stakeholder Engagement,Institutional Framework
+Equity and intergenerational equity,MRV and evaluation,0.557899571476213,641,Stakeholder Engagement,Governance Mechanisms
+Equity and intergenerational equity,Norms and soft law,0.7661867610507461,613,Stakeholder Engagement,Institutional Framework
+Equity and intergenerational equity,Robustness and resilience,0.6575215306120137,635,Stakeholder Engagement,Adaptive Capacity
+Equity and intergenerational equity,Secretariat authority and influence,0.629842010888363,628,Stakeholder Engagement,Institutional Framework
+Institutional change and path dependence,Rule of Law,0.5959197766220977,461,Adaptive Capacity,Institutional Framework
+Intermediaries,Partnerships and public–private arrangements,0.7373670979472228,265,Inter-Institutional Relations,Stakeholder Engagement
+Intermediaries,Regime complex and fragmentation,0.51643522767606,280,Inter-Institutional Relations,Inter-Institutional Relations
+Intermediaries,Transparency,0.7543102175505,261,Inter-Institutional Relations,Institutional Framework
+"Learning, innovation and capacity building",Norms and soft law,0.6354680525088772,631,Adaptive Capacity,Institutional Framework
+"Learning, innovation and capacity building",Robustness and resilience,0.5453693614751133,665,Adaptive Capacity,Adaptive Capacity
+"Learning, innovation and capacity building",Secretariat authority and influence,0.6249337232836738,703,Adaptive Capacity,Institutional Framework
+Legitimacy,Norms and soft law,0.5587733754714713,431,Institutional Framework,Institutional Framework
+MRV and evaluation,Norms and soft law,0.5325683864233344,626,Governance Mechanisms,Institutional Framework
+MRV and evaluation,Robustness and resilience,0.806031206338976,810,Governance Mechanisms,Adaptive Capacity
+MRV and evaluation,Secretariat authority and influence,0.53934753102447,710,Governance Mechanisms,Institutional Framework
+Norms and soft law,Robustness and resilience,0.6127236371664732,613,Institutional Framework,Adaptive Capacity
+Norms and soft law,Secretariat authority and influence,0.6344369897810698,626,Institutional Framework,Institutional Framework
+Partnerships and public–private arrangements,Regime complex and fragmentation,0.5202095298426512,289,Stakeholder Engagement,Inter-Institutional Relations
+Partnerships and public–private arrangements,Transparency,0.736510556928447,262,Stakeholder Engagement,Institutional Framework
+Regime complex and fragmentation,Transparency,0.5057062153746533,273,Inter-Institutional Relations,Institutional Framework
+Robustness and resilience,Secretariat authority and influence,0.5952903475154592,681,Adaptive Capacity,Institutional Framework
