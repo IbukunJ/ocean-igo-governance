@@ -1,2 +1,0 @@
-run_id,run_stage,timestamp,n_igos,n_documents,n_pages_total,n_paragraph_units,extraction_library,segmentation_unit,text_cleaning,notes
-partii_step2_20260130_094327,PartII_Step2_DocumentCorpus,2026-01-30T09:43:27.211991,48,59,2570,6678,PyMuPDF (fitz),paragraphs (within-page),unicode NFKC; soft hyphen removal; line-break hyphenation repair; whitespace normalisation,Documents flagged low_text_density may require OCR; no OCR applied in this step.
