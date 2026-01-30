@@ -1,0 +1,2 @@
+run_id,run_stage,date_utc,n_igos,total_reviewed_candidates,accepted,retagged,rejected,dictionary_version,tagset_version,export_version,retrieval_method,tfidf_vectorizer,notes
+2024-11_partII_igo_coding_v1,PartII_Step3,2026-01-30T10:47:37Z,48,3636,2882,192,562,dict_v1.2,attr_v1.0,audit_partII_v2,regex + TF-IDF cosine (ranking),"{""ngram_range"": [1, 2], ""stop_words"": ""english"", ""min_df"": 1}",Candidate retrieval uses regex triggers; TF-IDF cosine similarity is computed for ranking/diagnostics. Screening is human-verified (Accept/Reject/Re-tag) with memos.

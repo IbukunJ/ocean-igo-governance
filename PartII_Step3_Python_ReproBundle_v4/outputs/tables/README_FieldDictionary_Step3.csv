@@ -1,0 +1,109 @@
+table,field,dtype,example
+table_xx_attribute_indicator_keyword_matrix,attribute_code,object,YE
+table_xx_attribute_indicator_keyword_matrix,indicator_id,object,YE_01
+table_xx_attribute_indicator_keyword_matrix,indicator_label,object,Formal creation date; entry‑into‑force (if relevant)
+table_xx_attribute_indicator_keyword_matrix,keyword_phrases,object,established; founded; created; entered into force; adopted
+table_xx_attribute_indicator_keyword_matrix,regex_or_pattern,object,(?:established|founded|created|entered\s+into\s+force|adopted)
+step3_candidate_review_queue,log_id,object,AT-P2-0000002
+step3_candidate_review_queue,timestamp_iso,object,2024-11-01T08:58:00Z
+step3_candidate_review_queue,coder_id,object,IA
+step3_candidate_review_queue,run_id,object,2024-11_partII_igo_coding_v1
+step3_candidate_review_queue,dictionary_version,object,dict_v1.2
+step3_candidate_review_queue,tagset_version,object,attr_v1.0
+step3_candidate_review_queue,export_version,object,audit_partII_v2
+step3_candidate_review_queue,igo,object,Intergovernmental Oceanographic Commission (IOC)
+step3_candidate_review_queue,attribute_code_before,object,YE
+step3_candidate_review_queue,indicator_id_before,object,IND_YE_DATE
+step3_candidate_review_queue,attribute_code_after,object,YE
+step3_candidate_review_queue,indicator_id_after,object,IND_YE_DATE
+step3_candidate_review_queue,evidence_tier,object,Definition/Identification
+step3_candidate_review_queue,doc_family_inferred,object,Foundational legal instrument
+step3_candidate_review_queue,source_title,object,Statutes of the Intergovernmental Oceanographic Commission of UNESCO (IOC Statutes)
+step3_candidate_review_queue,source_type,object,Statute/Charter
+step3_candidate_review_queue,source_scope,object,—
+step3_candidate_review_queue,article_section_page,object,—
+step3_candidate_review_queue,source_uri,object,—
+step3_candidate_review_queue,trigger_term,object,established
+step3_candidate_review_queue,excerpt_<=50w,object,Year of establishment specified in the constitutive instrument (treaty/charter/statute/res
+step3_candidate_review_queue,coder_action,object,Accept
+step3_candidate_review_queue,retained_in_longfile,object,Yes
+step3_candidate_review_queue,decision_rationale,object,Attribute definition stored at node to standardise interpretation and prevent construct dr
+step3_candidate_review_queue,review_note,object,Definition note recorded in the codebook to anchor retrieval and coding to the theory-info
+step3_candidate_review_queue,trace_key,object,c2c13d9f1ef35daae5a856f479ad2531c4816586
+step3_candidate_review_queue,retrieval_set,object,attributes
+step3_candidate_review_queue,attribute_code_final,object,YE
+step3_candidate_review_queue,coder_action_std,object,ACCEPT
+step3_candidate_review_queue,tfidf_cosine,float64,0.18650937291160458
+step3_candidate_review_queue,retrieval_method,object,regex + TF-IDF cosine (ranking)
+step3_decision_log,log_id,object,AT-P2-0000001
+step3_decision_log,timestamp_iso,object,2024-11-01T08:58:00Z
+step3_decision_log,coder_id,object,IA
+step3_decision_log,step,object,Step 2 (Evidence acquisition & structuring)
+step3_decision_log,event_type,object,RUN_START
+step3_decision_log,coder_action,object,Accept
+step3_decision_log,igo,object,—
+step3_decision_log,attribute_code_before,object,—
+step3_decision_log,attribute_code_after,object,—
+step3_decision_log,indicator_id_before,object,—
+step3_decision_log,indicator_id_after,object,—
+step3_decision_log,evidence_tier,object,—
+step3_decision_log,doc_family_inferred,object,—
+step3_decision_log,source_title,object,—
+step3_decision_log,source_uri,object,—
+step3_decision_log,article_section_page,object,—
+step3_decision_log,excerpt_<=50w,object,—
+step3_decision_log,matrix_cell_text_full,object,—
+step3_decision_log,coded_value,object,—
+step3_decision_log,trigger_term,object,—
+step3_decision_log,before_value,object,—
+step3_decision_log,after_value,object,—
+step3_decision_log,decision_rationale,object,Configuration / setup step recorded for traceability.
+step3_decision_log,review_note,object,Initialised the Python coding workspace and created project nodes for the 48‑IGO evaluatio
+step3_decision_log,run_id,object,2024-11_partII_igo_coding_v1
+step3_decision_log,dictionary_version,object,dict_v1.2
+step3_decision_log,tagset_version,object,attr_v1.0
+step3_decision_log,export_version,object,audit_partII_v2
+step3_decision_log,source_type,object,System
+step3_decision_log,source_scope,object,Internal
+step3_decision_log,retained_in_longfile,object,nan
+step3_decision_log,trace_key,object,c2c13d9f1ef35daae5a856f479ad2531c4816586
+step3_decision_log,attribute_code_final,object,YE
+step3_decision_log,indicator_id_final,object,IND_YE_DATE
+step3_decision_log,retrieval_set,object,attributes
+step3_decision_log,coder_action_std,object,ACCEPT
+step3_traceability_long_file,record_id,object,TLF-V6-000001
+step3_traceability_long_file,run_id,object,2024-11_partII_igo_coding_v1
+step3_traceability_long_file,dictionary_version,object,dict_v1.2
+step3_traceability_long_file,tagset_version,object,attr_v1.0
+step3_traceability_long_file,export_version,object,traceability_v6_package
+step3_traceability_long_file,timestamp_iso,object,2024-11-01T09:00:00Z
+step3_traceability_long_file,coder_id,object,IA
+step3_traceability_long_file,coder_action,object,Accept
+step3_traceability_long_file,igo,object,Intergovernmental Oceanographic Commission (IOC)
+step3_traceability_long_file,attribute_code,object,YE
+step3_traceability_long_file,attribute_label,object,Year of Establishment
+step3_traceability_long_file,indicator_id,object,IND_YE_DATE
+step3_traceability_long_file,indicator_label,object,Formal establishment date (legal basis)
+step3_traceability_long_file,doc_family_inferred,object,Foundational legal instrument
+step3_traceability_long_file,evidence_tier,object,Substantiation/References
+step3_traceability_long_file,source_title,object,Statutes of the Intergovernmental Oceanographic Commission of UNESCO (IOC Statutes)
+step3_traceability_long_file,source_type,object,Statute/Charter
+step3_traceability_long_file,source_year,object,—
+step3_traceability_long_file,source_lang,object,EN
+step3_traceability_long_file,article_section_page,object,Not specified (see narrative/citations in cell text)
+step3_traceability_long_file,page_in_pdf,object,—
+step3_traceability_long_file,source_uri,object,—
+step3_traceability_long_file,excerpt_<=50w,object,1960.0
+step3_traceability_long_file,matrix_cell_text_full,object,1960.0
+step3_traceability_long_file,coded_value,object,status=accepted; attribute=YE; indicator=YE_date
+step3_traceability_long_file,decision_rationale,object,Checked for construct fit; retained with source pointer.
+step3_traceability_long_file,review_note,object,Founding instrument evidence: creation date recorded (Not specified (see narrative/citatio
+step3_traceability_long_file,excerpt_full,object,—
+step3_traceability_long_file,quoted_or_paraphrased,object,—
+step3_traceability_long_file,instrument_title,object,—
+step3_traceability_long_file,instrument_type,object,—
+step3_traceability_long_file,trace_key,object,c70a53c36f12266c6c6d81fd5c19a33cb5e6e2de
+step3_traceability_long_file,retrieval_set,object,attributes
+step3_traceability_long_file,coder_action_std,object,ACCEPT
+step3_traceability_long_file,attribute_code_final,object,YE
+step3_traceability_long_file,tfidf_cosine,float64,0.0
