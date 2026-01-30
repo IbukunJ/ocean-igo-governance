@@ -1,0 +1,31 @@
+table,field,dtype,description
+step4_matrix_long,igo,object,IGO name (case label).
+step4_matrix_long,attribute_code_final,object,"Attribute code (YE, SCL, SJ, SMJ, SoJ, DO, STR, IIR, VC, HC)."
+step4_matrix_long,matrix_cell_text,object,Integrated cell text produced from the three-tier template (definition + explanation + substantiation).
+step4_matrix_long,n_evidence_records,int64,Number of retained evidence records linked to this IGO×attribute cell.
+step4_matrix_long,n_unique_sources,int64,Number of unique source titles referenced across retained evidence records for this cell.
+step4_matrix_long,anchors_compact,object,Compact list of article/section anchors where available.
+step4_matrix_long,pages_compact,object,Compact list of page anchors where available.
+step4_matrix_long,uris_compact,object,Compact list of source URIs where available.
+step4_matrix_long,primary_doc_family,object,Most frequent inferred document family among evidence records for this cell.
+step4_matrix_long,record_ids,object,Semicolon-separated record identifiers linking back to the traceability long file.
+step4_matrix_long,n_tier_definition,int64,Count of definition-tier records for this cell (expected 1).
+step4_matrix_long,n_tier_explanation,int64,Count of explanation-tier records for this cell (expected 1).
+step4_matrix_long,n_tier_substantiation,int64,Count of substantiation-tier records for this cell (expected ≥1).
+step4_matrix_long,attribute_label,object,Human-readable attribute label.
+step4_matrix_long,has_url_in_cell,bool,Whether the integrated cell text contains a URL (proxy for URI capture).
+step4_matrix_long,has_article_in_cell,bool,Whether the cell text contains an Article reference (proxy).
+step4_matrix_long,has_page_in_cell,bool,Whether the cell text contains page notation (proxy).
+step4_coverage_missingness,igo,object,IGO name.
+step4_coverage_missingness,attribute_code_final,object,Attribute code.
+step4_coverage_missingness,n_evidence_records,int64,Evidence records retained for the cell.
+step4_coverage_missingness,n_unique_sources,int64,Unique source titles for the cell.
+step4_coverage_missingness,n_tier_definition,int64,Definition-tier records.
+step4_coverage_missingness,n_tier_explanation,int64,Explanation-tier records.
+step4_coverage_missingness,n_tier_substantiation,int64,Substantiation-tier records.
+step4_coverage_missingness,is_missing_cell,bool,Flag for missing or incomplete tier population (strict).
+step4_integrity_checks,check,object,Validation check name.
+step4_integrity_checks,value,object,Observed value.
+step4_integrity_checks,expected,object,Expected value (if applicable).
+step4_integrity_checks,status,object,PASS/FAIL/INFO.
+step4_integrity_checks,notes,object,Interpretation and scope of the check.

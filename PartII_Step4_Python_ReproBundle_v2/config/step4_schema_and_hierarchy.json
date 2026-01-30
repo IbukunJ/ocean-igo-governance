@@ -1,0 +1,39 @@
+{
+  "attribute_codes": [
+    "YE",
+    "SCL",
+    "SJ",
+    "SMJ",
+    "SoJ",
+    "DO",
+    "STR",
+    "IIR",
+    "VC",
+    "HC"
+  ],
+  "attribute_labels": {
+    "YE": "Year of Establishment",
+    "SCL": "Scale",
+    "SJ": "Spatial Jurisdiction",
+    "SMJ": "Subject Matter Jurisdiction",
+    "SoJ": "Source of Jurisdiction",
+    "DO": "Defined Objectives",
+    "STR": "Strategies",
+    "IIR": "Inter-Institutional Relationship",
+    "VC": "Vertical Coordination",
+    "HC": "Horizontal Coordination"
+  },
+  "evidence_hierarchy_primary_by_attribute": {
+    "YE": "Foundational legal instrument",
+    "SCL": "Foundational legal instrument",
+    "SJ": "Foundational legal instrument",
+    "SMJ": "Foundational legal instrument",
+    "SoJ": "Foundational legal instrument",
+    "DO": "Strategic/operational material",
+    "STR": "Strategic/operational material",
+    "IIR": "Strategic/operational material",
+    "VC": "Strategic/operational material",
+    "HC": "Strategic/operational material"
+  },
+  "notes": "Used to enforce matrix schema and document-family precedence during integration."
+}
