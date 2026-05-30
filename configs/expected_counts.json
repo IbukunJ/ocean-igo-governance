@@ -1,0 +1,12 @@
+{
+  "n_igos_expected": 48,
+  "n_attributes_expected": 10,
+  "candidate_review_queue": {
+    "total_candidates_reviewed": 3636,
+    "by_action": {
+      "Accept": 2882,
+      "Reject": 562,
+      "Re-tag": 192
+    }
+  }
+}

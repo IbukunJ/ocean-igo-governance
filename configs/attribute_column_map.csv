@@ -1,0 +1,11 @@
+attribute_code,matrix_column,attribute_group
+YE,Year of Establishment,structural
+SCL,Scale,structural
+SJ,Spatial Jurisdiction ,structural
+SMJ,Subject Matter Jurisdiction ,structural
+SoJ,Source of Jurisdiction ,structural
+DO,Defined Objectives ,procedural
+STR,Strategies ,procedural
+IIR,Inter-Institutional Relationship ,relational
+VC,Vertical Coordination ,relational
+HC,Horizontal Coordination ,relational

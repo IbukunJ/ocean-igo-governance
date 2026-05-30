@@ -1,0 +1,75 @@
+file,field,definition
+partII_candidate_review_queue.csv,record_id,Unique identifier for each machine-surfaced candidate passage (review queue row).
+partII_candidate_review_queue.csv,run_id,Identifier for the retrieval/coding run that generated the candidate row; links to run_log.csv.
+partII_candidate_review_queue.csv,coder_id,Identifier for the reviewer/coder who screened the candidate passage.
+partII_candidate_review_queue.csv,timestamp_iso,ISO 8601 timestamp (UTC) of the review action recorded for this candidate row.
+partII_candidate_review_queue.csv,igo,Short name of the intergovernmental organisation (IGO) to which the document/passage pertains.
+partII_candidate_review_queue.csv,attribute_code,"Governance attribute code targeted by retrieval (YE, SCL, SJ, SMJ, SoJ, DO, STR, IIR, VC, HC)."
+partII_candidate_review_queue.csv,indicator_id,Indicator identifier within the attribute (granular retrieval hook); corresponds to the indicator matrix.
+partII_candidate_review_queue.csv,evidence_tier,Evidence tier within the three-tier template (Definition/Identification; Explanation/Elaboration; Substantiation/References).
+partII_candidate_review_queue.csv,source_title,Title of the source document from which the passage was extracted.
+partII_candidate_review_queue.csv,source_uri,Official URL (or archived URI) for the source document; recorded for provenance.
+partII_candidate_review_queue.csv,source_type,"Document type (e.g., treaty, statute, resolution, strategic plan, report, MoU)."
+partII_candidate_review_queue.csv,source_scope,"Scope classification of the source (e.g., founding/constitutive vs operational/strategic)."
+partII_candidate_review_queue.csv,article_section_page,Locator string for the cited location (article/section; page reference where relevant).
+partII_candidate_review_queue.csv,page_in_pdf,PDF page number where the passage occurs (as extracted from the local PDF file).
+partII_candidate_review_queue.csv,excerpt_<=50w,"Short, human-readable excerpt (≤50 words) used for screening; may include ellipses to indicate omitted text."
+partII_candidate_review_queue.csv,excerpt_full,Full excerpt captured for evidence; may include ellipses for non-contiguous quoting while retaining meaning.
+partII_candidate_review_queue.csv,trigger_term,Keyword/phrase that triggered retrieval of this candidate passage.
+partII_candidate_review_queue.csv,retrieval_method,"Retrieval method used to surface the candidate (e.g., keyword/regex; similarity-based)."
+partII_candidate_review_queue.csv,retrieval_score,"Score from the retrieval method (if applicable); used for ranking/triage, not as evidence quality."
+partII_candidate_review_queue.csv,coder_action,Screening decision recorded by the coder (Accept; Reject; Retag).
+partII_candidate_review_queue.csv,review_note,Coder memo capturing the rationale for the screening action and any interpretive boundary notes.
+partII_candidate_review_queue.csv,attribute_code_final,Final attribute code after any retagging (equals attribute_code unless coder_action=Retag).
+partII_candidate_review_queue.csv,indicator_id_final,Final indicator id after any retagging (equals indicator_id unless coder_action=Retag).
+partII_traceability_long_file.csv,record_id,Unique identifier for each retained evidence record exported to the traceability archive.
+partII_traceability_long_file.csv,trace_key,Stable key for joining evidence records across exports (IGO × attribute × indicator × tier × source locator).
+partII_traceability_long_file.csv,igo,IGO name to which the evidence is assigned.
+partII_traceability_long_file.csv,attribute_code,Governance attribute code for the matrix cell (see candidate review queue).
+partII_traceability_long_file.csv,indicator_id,Indicator identifier within the attribute.
+partII_traceability_long_file.csv,evidence_tier,Evidence tier (Definition/Identification; Explanation/Elaboration; Substantiation/References).
+partII_traceability_long_file.csv,coder_action,Decision status for this evidence record (typically Accept or Retag in the traceability export).
+partII_traceability_long_file.csv,coded_value,Coded value stored for the IGO–attribute cell; may be a scalar value or a short descriptor.
+partII_traceability_long_file.csv,matrix_cell_text_full,Composed matrix-cell narrative generated from the three-tier template and citations for the IGO–attribute.
+partII_traceability_long_file.csv,decision_memo,Coder note capturing why the passage substantiates the attribute and any boundary conditions.
+partII_traceability_long_file.csv,source_title,Title of the evidence source document.
+partII_traceability_long_file.csv,source_type,Document type classification.
+partII_traceability_long_file.csv,source_scope,Evidence scope (founding/constitutive vs operational/strategic).
+partII_traceability_long_file.csv,source_uri,Official URL (or archived URI) recorded for the source document.
+partII_traceability_long_file.csv,page_in_pdf,PDF page number where the passage occurs (where applicable).
+partII_traceability_long_file.csv,article_section_page,Locator string (article/section; page reference where relevant).
+partII_traceability_long_file.csv,excerpt_<=50w,Short excerpt used for traceability display (≤50 words).
+partII_traceability_long_file.csv,excerpt_full,Full excerpt retained as the evidence artefact; may include ellipses for omissions.
+partII_traceability_long_file.csv,doc_family_inferred,Derived document-family label used to apply evidence hierarchy rules in integration diagnostics.
+partII_traceability_long_file.csv,source_year,Year associated with the source document (when available).
+partII_decision_log.csv,log_id,Unique identifier for each decision-log event (audit trail entry).
+partII_decision_log.csv,timestamp_iso,ISO 8601 timestamp of the logged event.
+partII_decision_log.csv,coder_id,Identifier for the coder/reviewer responsible for the event.
+partII_decision_log.csv,step,"Pipeline step identifier (e.g., Step3 Review; Step4 Integration)."
+partII_decision_log.csv,event_type,"Event category (e.g., PASSAGE_REVIEW; RETAG; NOTE_EDIT; INTEGRATION_CHECK)."
+partII_decision_log.csv,coder_action,Action taken (Accept; Reject; Retag; or other audit events).
+partII_decision_log.csv,igo,IGO associated with the event.
+partII_decision_log.csv,attribute_code_before,Attribute code before retagging (if applicable).
+partII_decision_log.csv,attribute_code_after,Attribute code after retagging (if applicable).
+partII_decision_log.csv,indicator_id_before,Indicator id before retagging (if applicable).
+partII_decision_log.csv,indicator_id_after,Indicator id after retagging (if applicable).
+partII_decision_log.csv,attribute_code_final,Final attribute code after retagging or confirmation.
+partII_decision_log.csv,indicator_id_final,Final indicator id after retagging or confirmation.
+partII_decision_log.csv,evidence_tier,Evidence tier involved in the event (where applicable).
+partII_decision_log.csv,decision_rationale,Short rationale string explaining the decision; complements review_note.
+partII_decision_log.csv,review_note,"Extended coder memo documenting contextual interpretation, boundary rules, and justification."
+partII_decision_log.csv,retained_in_longfile,Boolean flag indicating whether the evidence was retained in the traceability long file.
+partII_decision_log.csv,run_id,Run identifier linking the event to run metadata (run_log.csv).
+partII_decision_log.csv,dictionary_version,Version label for the controlled vocabulary/dictionary used in retrieval/coding.
+partII_decision_log.csv,tagset_version,Version label for the attribute/indicator tagset used in retrieval/coding.
+partII_decision_log.csv,export_version,Version label for the exported audit artefacts.
+run_log.csv,run_id,"Unique identifier for a pipeline run (retrieval, screening, integration, diagnostics)."
+run_log.csv,run_stage,Pipeline stage (PartII-Step3 retrieval/screening; PartII-Step4 integration/diagnostics).
+run_log.csv,operator_id,Identifier for the human operator running the pipeline.
+run_log.csv,start_time_iso,ISO 8601 start time for the run.
+run_log.csv,end_time_iso,ISO 8601 end time for the run.
+run_log.csv,python_version,Python interpreter version used for the run.
+run_log.csv,packages_pinned,Flag indicating whether package versions were pinned for reproducibility.
+run_log.csv,input_hashes_sha256,"SHA-256 hashes of key input files, used to verify identical inputs on re-run."
+run_log.csv,parameters_json,Serialized JSON of key run parameters and thresholds.
+run_log.csv,outputs_sha256,SHA-256 hashes of generated output files for integrity checking.
