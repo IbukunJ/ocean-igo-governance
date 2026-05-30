@@ -1,9 +1,0 @@
-check,value,expected,status,notes
-Expected IGO count,48,48,PASS,Unique IGO names in integrated matrix.
-Expected attribute codes (incl. SCL),"['DO', 'HC', 'IIR', 'SCL', 'SJ', 'SMJ', 'STR', 'SoJ', 'VC', 'YE']","['YE', 'SCL', 'SJ', 'SMJ', 'SoJ', 'DO', 'STR', 'IIR', 'VC', 'HC']",PASS,Attribute universe used in Step 4 integration.
-Expected IGO×Attribute cells,480,480,PASS,One integrated value per IGO per attribute code.
-Unique cell text per IGO×Attribute,0,0,PASS,Flags if consolidation produced conflicting cell texts within same IGO×Attribute.
-"Tier completeness (Def=1, Expl=1, Subst>=1)",0,0,PASS,Checks whether the three-tier template is populated for every cell.
-Orphan retained evidence records,0,0,PASS,Retained evidence with missing/invalid IGO or attribute code.
-Cells containing at least one URL (proxy for URI capture),0.7916666666666666,n/a,INFO,Share of integrated cells with a URL in the rendered cell text.
-Bipartite matrix graph connected components (networkx sanity check),1,1,PASS,Constructs a bipartite graph (IGO nodes + attribute nodes) with an edge for each populated cell; expects a single connected component when the matrix is complete.

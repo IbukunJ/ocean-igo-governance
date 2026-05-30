@@ -1,2 +1,0 @@
-run_id,pipeline_stage,pipeline_step,input_step3_bundle,input_step3_md5,n_igos,n_attributes,n_cells,n_retained_evidence,timestamp_utc,operator,notes
-P2S4_20260130T135131Z,PartII,Step4_DataIntegration,PartII_Step3_AttributeCoding_BUNDLE_v4.xlsx,3678fcded42e503023b95ae867d97974,48,10,480,3074,20260130T135131Z,single_coder,Deterministic integration from Step 3 traceability long file; no new evidence added.
