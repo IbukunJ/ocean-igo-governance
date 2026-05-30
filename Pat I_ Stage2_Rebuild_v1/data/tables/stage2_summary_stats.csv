@@ -1,8 +1,0 @@
-stage,n_documents,n_paragraphs,n_candidate_hits,n_first_order_themes,n_seed_themes,n_additional_themes,n_candidate_term_theme_pairs,n_unique_candidate_terms,n_compiled_shortlist_terms,n_validated_terms
-Stage 2 — Pilot pass 1 (seed-only),20.0,1128.0,1118.0,,,,,,,
-Stage 2 — Pilot thematic expansion,20.0,,,80.0,26.0,54.0,,,,
-Stage 2 — Synonym candidate generation,,,,,,,3261.0,2439.0,,
-Stage 2 — Synonym vetting outcome,,,,,,,,,176.0,143.0
-Stage 2 — Pilot pass 2 (synonym-expanded),20.0,,1804.0,,,,,,,
-Stage 2 — Full corpus pass 2 (synonym-expanded),47.0,,2385.0,,,,,,,
-Stage 2 — Full corpus total (pilot + remaining),67.0,,4189.0,,,,,,,
