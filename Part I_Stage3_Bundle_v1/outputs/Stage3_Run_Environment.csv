@@ -1,2 +1,0 @@
-python_version,platform,pandas,numpy,scikit_learn,networkx,matplotlib,openpyxl
-3.11.2,Linux-4.4.0-x86_64-with-glibc2.36,2.2.3,1.24.0,1.4.2,2.8.8,3.7.5,3.1.5
